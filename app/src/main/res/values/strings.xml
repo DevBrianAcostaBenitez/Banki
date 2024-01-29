@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Banki</string>
+    <string-array name="FiltroCifra">
+        <item>Indiferente</item>
+        <item>mayor que</item>
+        <item>Menor que</item>
+    </string-array>
+    <string-array name="FiltroCancelable">
+        <item>Indiferente</item>
+        <item>Cancelable</item>
+        <item>No Cancelable</item>
+    </string-array>
+</resources>

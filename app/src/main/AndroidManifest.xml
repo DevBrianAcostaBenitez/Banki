@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoPPP_BrianAcostaBenitez"
+        tools:targetApi="31">
+        <activity
+            android:name=".Historial_adapter"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Historial_View"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Transferencia"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Tarjetas_lista"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Tarjeta"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Tarjeta_Adapter"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Suscripciones"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".GestionONG"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".IngresoRetiro_confirmacion"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".IngresoRetiro"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".UserScreen"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".log"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "174686325571",
+    "project_id": "proyectopppbab",
+    "storage_bucket": "proyectopppbab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174686325571:android:bbdbbdb67e428f32747df6",
+        "android_client_info": {
+          "package_name": "com.example.banki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174686325571-rs3nm4r14hiovqid4bq32fadr9ig5ami.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD82DYx-SFcOJzsGnMeBgJv6SFTACe_CIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174686325571-rs3nm4r14hiovqid4bq32fadr9ig5ami.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174686325571:android:c64a744f6a091084747df6",
+        "android_client_info": {
+          "package_name": "com.example.proyectoppp_brianacostabenitez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174686325571-rs3nm4r14hiovqid4bq32fadr9ig5ami.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD82DYx-SFcOJzsGnMeBgJv6SFTACe_CIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174686325571-rs3nm4r14hiovqid4bq32fadr9ig5ami.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

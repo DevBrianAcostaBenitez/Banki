@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GestionONG">
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_pill_background_title"
+        android:text="Aqui puedes configurar si deseas donar hasta un 5% de tus transferencias a ONGs y entre a que ONGs quieres repartirlo, si no deseas donar puedes poner los valores a 0 (los valores actuales pueden tardar unos segundos en cargar)"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/shape_pill_background_form"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/FunDacionInternacionalDeDerechosHumanos"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="fundacion internacional de derechos humanos: " />
+
+        <EditText
+            android:id="@+id/DonacionFunDacionInternacionalDeDerechosHumanos"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="number"
+            android:maxLines="1"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_pill_background_form"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Greenpeace"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Greenpeace: " />
+
+        <EditText
+            android:id="@+id/DonacionGreenpeace"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="number"
+            android:maxLines="1"
+            android:text="0" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_pill_background_form"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/AccionContraElHambre"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Accion contra el hambre: " />
+
+        <EditText
+            android:id="@+id/DonacionAccionContraElHambre"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="number"
+            android:maxLines="1"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_pill_background_form"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/MedicosSinFronteras"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="MedicosSinFronteras: " />
+
+        <EditText
+            android:id="@+id/DonacionMedicosSinFronteras"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="number"
+            android:maxLines="1"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/shape_pill_background_form"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Unicef"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Unicef: " />
+
+        <EditText
+            android:id="@+id/DonacionUnicef"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="number"
+            android:maxLines="1"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btmodificar"
+            android:layout_width="180dp"
+            android:layout_height="91dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#8ab97f"
+            app:strokeColor="#36542f"
+            app:strokeWidth="4dp"
+            android:text="modificar" />
+
+        <Button
+            android:id="@+id/btvolver"
+            android:layout_width="180dp"
+            android:layout_height="91dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#8ab97f"
+            app:strokeColor="#36542f"
+            app:strokeWidth="4dp"
+            android:text="Cancelar" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/autentificacion"
+            android:layout_width="300dp"
+            android:layout_height="91dp"
+            android:backgroundTint="#8ab97f"
+            app:strokeColor="#36542f"
+            app:strokeWidth="4dp"
+            android:text="auntetificarse" />
+
+        <Button
+            android:id="@+id/registro"
+            android:layout_width="300dp"
+            android:layout_height="91dp"
+            android:backgroundTint="#8ab97f"
+            app:strokeColor="#36542f"
+            app:strokeWidth="4dp"
+            android:text="crear nueva cuenta" />
+    </LinearLayout>
+
+</LinearLayout>

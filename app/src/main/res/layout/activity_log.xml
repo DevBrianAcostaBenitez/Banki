@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".log">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/shape_pill_background_title"
+        android:gravity="center"
+        android:text="Autentificacion"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape_pill_background_form"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCorreo"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:text="Correo"
+            android:textSize="27dp" />
+
+        <EditText
+            android:id="@+id/Correo"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:hint="Escriba el correo"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/txtcontraseña"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:text="Contraseña"
+            android:textSize="27dp" />
+
+        <EditText
+            android:id="@+id/Contraseña"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:hint="Escriba la contraseña"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/log"
+            android:layout_width="300dp"
+            android:layout_height="91dp"
+            android:backgroundTint="#8ab97f"
+            app:strokeColor="#36542f"
+            app:strokeWidth="4dp"
+            android:text="autentificarse" />
+
+        <Button
+            android:id="@+id/btvolver"
+            android:layout_width="300dp"
+            android:layout_height="91dp"
+            android:backgroundTint="#8ab97f"
+            app:strokeColor="#36542f"
+            app:strokeWidth="4dp"
+            android:text="Volver" />
+
+    </LinearLayout>
+</LinearLayout>

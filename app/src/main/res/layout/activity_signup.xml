@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".signup">
+
+    <TextView
+        android:id="@+id/Registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/shape_pill_background_title"
+        android:gravity="center"
+        android:text="Registro"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_pill_background_form"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCorreo"
+            android:layout_width="333dp"
+            android:layout_height="31dp"
+            android:text="Correo"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Correo"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="text"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:hint="introduzca un correo valido"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtcontraseña"
+            android:layout_width="333dp"
+            android:layout_height="31dp"
+            android:text="Contraseña"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Contraseña"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:hint="contraseña de minimo 6 caracteres"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtnombrecompleto"
+            android:layout_width="333dp"
+            android:layout_height="31dp"
+            android:text="Nombre y Apellidos"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Nombrecompleto"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="text"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtTelefono"
+            android:layout_width="333dp"
+            android:layout_height="31dp"
+            android:text="Telefono"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Telefono"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="number"
+            android:maxLength="9"
+            android:hint="telefono completo"
+            android:maxLines="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtDireccion"
+            android:layout_width="333dp"
+            android:layout_height="31dp"
+            android:text="Direccion"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Direccion"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:background="@drawable/shape_pill_background_field"
+            android:inputType="text"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="300dp"
+            android:layout_height="91dp"
+            android:backgroundTint="#8ab97f"
+            app:strokeColor="#36542f"
+            app:strokeWidth="4dp"
+            android:text="registrarse" />
+
+        <Button
+            android:id="@+id/btvolver"
+            android:layout_width="300dp"
+            android:layout_height="91dp"
+            android:backgroundTint="#8ab97f"
+            app:strokeColor="#36542f"
+            app:strokeWidth="4dp"
+            android:text="Volver" />
+    </LinearLayout>
+</LinearLayout>
